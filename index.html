@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Sequencing with Deadlines</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Job Sequencing Problem</h1>
+    <form id="jobForm">
+      <label>Enter Job ID, Deadline, Profit (comma separated):</label>
+      <textarea id="jobsInput" placeholder="e.g., J1,2,100
+J2,1,50
+J3,2,10"></textarea>
+      <button type="submit">Run Algorithm</button>
+    </form>
+    <div id="output"></div>
+    <canvas id="ganttChart" width="600" height="200"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
